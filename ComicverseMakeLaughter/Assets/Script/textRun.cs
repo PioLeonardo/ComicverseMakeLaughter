@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class BottomBarController : MonoBehaviour
+public class textRun : MonoBehaviour
 {
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
@@ -78,7 +78,7 @@ public class BottomBarController : MonoBehaviour
         {
             barText.text += text[wordIndex];
             yield return new WaitForSeconds(0.05f);
-            if(++wordIndex == text.Length)
+            if (++wordIndex == text.Length)
             {
                 state = State.COMPLETED;
                 break;

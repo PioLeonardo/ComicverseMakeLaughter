@@ -10,6 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 32f1c87f228c0d54c89c8395beda50a0, type: 3}
-  m_Name: Choose-Dialog1
+  m_Name: Pilihan_Dialog1
   m_EditorClassIdentifier: 
-  labels: []
+  labels:
+  - text: 'My question is, do you create multiple accounts to create anonymous accounts? '
+    nextScene: {fileID: 11400000, guid: f190fb8fd35448d46a3385b6f6814a6e, type: 2}
+  - text: My question is, why did you create so many accounts?
+    nextScene: {fileID: 11400000, guid: 1a4b4cb27b13bcd47b879c7ba0afe6cf, type: 2}

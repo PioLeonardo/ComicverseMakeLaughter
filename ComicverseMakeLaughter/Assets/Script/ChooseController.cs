@@ -38,7 +38,7 @@ public class ChooseController : MonoBehaviour
         rectTransform.sizeDelta = size;
     }
 
-    public void PerformChoose(StoryScene scene)
+    public void PerformChoose(Materi scene)
     {
         gameController.PlayScene(scene);
         animator.SetTrigger("Hide");

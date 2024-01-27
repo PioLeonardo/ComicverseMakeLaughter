@@ -5,9 +5,8 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public GameScene currentScene;
-    public BottomBarController bottomBar;
-    public BackgroundController backgroundController;
-    public ChooseController chooseController;
+    public textRun bottomBar;
+    
 
     private State state = State.IDLE;
 
@@ -18,23 +17,22 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        if (currentScene is StoryScene)
+        if (currentScene is Materi)
         {
-            StoryScene storyScene = currentScene as StoryScene;
+            Materi storyScene = currentScene as Materi;
             bottomBar.PlayScene(storyScene);
-            backgroundController.SetImage(storyScene.background);
         }
     }
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             if (state == State.IDLE && bottomBar.IsCompleted())
             {
                 if (bottomBar.IsLastSentence())
                 {
-                    PlayScene((currentScene as StoryScene).nextScene);
+                    PlayScene((currentScene as Materi).nextScene);
                 }
                 else
                 {
@@ -55,10 +53,9 @@ public class GameController : MonoBehaviour
         currentScene = scene;
         bottomBar.Hide();
         yield return new WaitForSeconds(1f);
-        if (scene is StoryScene)
+        if (scene is Materi)
         {
-            StoryScene storyScene = scene as StoryScene;
-            backgroundController.SwitchImage(storyScene.background);
+            Materi storyScene = scene as Materi;
             yield return new WaitForSeconds(1f);
             bottomBar.ClearText();
             bottomBar.Show();
@@ -69,7 +66,7 @@ public class GameController : MonoBehaviour
         else if (scene is ChooseScene)
         {
             state = State.CHOOSE;
-            chooseController.SetupChoose(scene as ChooseScene);
+
         }
     }
 }
