@@ -9,19 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21862587d57f4ef40b080db26756b76e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d5afaf4f41b6cf4398ac1f657e79bda, type: 3}
   m_Name: Dialog1
   m_EditorClassIdentifier: 
   sentences:
-  - text: I'm Joket. First of all, I apologize if my material is not funny. But,
-      even if it's not funny, you'll laugh. It's like a comedy show on TV, nothing
-      is funny, the audience just wants to laugh.
-    speaker: {fileID: 11400000, guid: f427fa2504c626e488236f96ce715aca, type: 2}
-  - text: "Nowadays, social media is really trending. There's Facebook, Twitter,
-      Path, Friendster, the list goes on. Indeed, social media can be used for chatting,
-      sending messages to each other, including messaging. What I don't know is that
-      many people have accounts on many social media, they have Facebook, Twitter,
-      BBM, Friendster.\u2026"
-    speaker: {fileID: 11400000, guid: f427fa2504c626e488236f96ce715aca, type: 2}
-  background: {fileID: 21300000, guid: 5eb39f6d4d2b1b54da440a50d303675b, type: 3}
-  nextScene: {fileID: 0}
+  - text: Gue Joko alias jomblo kocak. Pertama-tama gue mohon maaf kalau materi gue
+      tidak lucu. Tapi, kalau pun nggak lucu, kalian ketawa aja. Kayak acara lawak
+      di TV gitu, gak ada yang lucu, penontonnya mau aja ketawa.
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: Gini aja ya ges yak, berhubung gw ga jago ngelawak. Kita main tebak-tebakan
+      aja. Jadi ini stand-up tebak tebakan ya ges yak.
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: "Jadi bapak gw pernah nanya ke gw gini. \u201CNak, dua kali tambah berapa
+      nak ?\""
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: "Trus gw jawab kann dengan keras... \u201C4 Pak !\u201D."
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: "\u201CKamu salah, salah banget!\u201D."
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: Gw kan bingung yak, dua tambah dua kan empat, emang ada jawaban lain? Lu
+      tau ga si jawaban Bapak gw apa ?
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  background: {fileID: 21300000, guid: 0035f62f0d0becc4cad66a6a8994a769, type: 3}
+  nextScene: {fileID: 11400000, guid: 4743aa6289021d94fb44bd240d2c392f, type: 2}

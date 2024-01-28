@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Dialog1-Benar
   m_EditorClassIdentifier: 
   sentences:
-  - text: HAHA, Literally yes
-    speaker: {fileID: 11400000, guid: e4e83a0b50ab9f14cb0de2d8017660ae, type: 2}
-  - text: Ohhh, maybe many of the anonymous accounts we see on social media are all
-      your work. A little wrong government immediately comments, ugly people immediately
-      comment, sexy body girls are immediately horny. You're intentionally making
-      a scene on social media, so that you look cool after debating with people,
-      even though you're unemployed and lamenting your fate.
-    speaker: {fileID: 11400000, guid: f427fa2504c626e488236f96ce715aca, type: 2}
-  - text: I'm cracking up, Hahahaha
-    speaker: {fileID: 11400000, guid: e4e83a0b50ab9f14cb0de2d8017660ae, type: 2}
-  - text: ' (Wow, my initial set-up went well).   (Okay, I''m going to the next punchline).'
-    speaker: {fileID: 11400000, guid: f427fa2504c626e488236f96ce715aca, type: 2}
+  - text: "\u201CKenyang\u201D. Ekspresi muka gw kek, Wat de fak ?!. Dia ketawa kenceng
+      bjir."
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: WKWKWKWK... tadi gw ngelag dulu ternyata dua kali tambah!
+    speaker: {fileID: 11400000, guid: 6f95c08274b781a4396432020587c52a, type: 2}
+  - text: WOKWOWKOKW... Tambah bang, boleh juga lawakan lu!
+    speaker: {fileID: 11400000, guid: 6f95c08274b781a4396432020587c52a, type: 2}
+  - text: '(Dalam hati : Anjir padahal gw gak punya bapak, work juga jokes bapak-bapak,
+      haha)'
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: '(Dalam hati gw : Oke, gw lanjutin aja kali yak , hehe)'
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
   background: {fileID: 0}
   nextScene: {fileID: 0}

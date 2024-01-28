@@ -10,21 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d5afaf4f41b6cf4398ac1f657e79bda, type: 3}
-  m_Name: Dialog1-Salah
+  m_Name: Dialog1-salah
   m_EditorClassIdentifier: 
   sentences:
-  - text: 'Want to get a bonus when playing if we manage to invite friends, maybe? '
-    speaker: {fileID: 11400000, guid: e4e83a0b50ab9f14cb0de2d8017660ae, type: 2}
-  - text: Haha, it's a shame, you've created a lot of accounts, and then it turns
-      out that the function is just to get game bonuses. Many accounts, but the scope
-      of friends does not increase. It really looks like an introvert and anti-social
-      combo, haha.
-    speaker: {fileID: 11400000, guid: f427fa2504c626e488236f96ce715aca, type: 2}
-  - text: Heyyy, there's nothing wrong with being anti-social. Change your joke,
-      it's not funny, huuuu (audience disappointed).
-    speaker: {fileID: 11400000, guid: e4e83a0b50ab9f14cb0de2d8017660ae, type: 2}
-  - text: (Damn, it turns out that there are many anti-social people here who can't
-      be nudged).
-    speaker: {fileID: 11400000, guid: f427fa2504c626e488236f96ce715aca, type: 2}
-  background: {fileID: 0}
+  - text: "\u201CEmang ada?\u201D Lah, apa si gw ga ngerti anjirlah. Gw berharap
+      dia ngejawab sesuatu gitu loh..."
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: Lu emang berharap jawaban apa bang?
+    speaker: {fileID: 11400000, guid: 6f95c08274b781a4396432020587c52a, type: 2}
+  - text: Ya apa kek gitu, dia kek mau lucu-lucuan tapi ga lucu gitu. Ya tapi bapak
+      sendiri, jadi nya gw ketawa karir.
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: Yaelah, minimal kalo mau ngejokes bapak-bapak yang bener lah, itu mah di
+      Tiktok udah banyak!
+    speaker: {fileID: 11400000, guid: 6f95c08274b781a4396432020587c52a, type: 2}
+  - text: '(Dalam hati : Udah boong ngejokes bapak-bapak, padahal ga punya bapak.
+      Mereka ga ketawa malah marah. Bjirlah, baru juga awal).'
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  - text: '(Dalam hati : Gw lanjutin ga ya jokes bapak-bapak ini?).'
+    speaker: {fileID: 11400000, guid: 41d25c544a4b4574480ab41f3793e095, type: 2}
+  background: {fileID: 21300000, guid: 0035f62f0d0becc4cad66a6a8994a769, type: 3}
   nextScene: {fileID: 0}
